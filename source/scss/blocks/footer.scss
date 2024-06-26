@@ -1,0 +1,30 @@
+.footer {
+  min-height: 100px;
+  background-color: $purple;
+  margin-top: 40px;
+}
+
+.footer_nav-list {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding-top: 27.5px;
+  padding-bottom: 27.5px;
+}
+
+.footer_nav-list-item {
+  margin-bottom: 10px;
+}
+
+.footer_nav_link {
+  color: $white;
+}
+@media (min-width: $tablet-desktop-width) {
+  .footer_nav-list {
+    flex-direction: row;
+    max-width: 725px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-between;
+  }
+}

@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.page-container {
+  max-width: 1170px;
+  margin: 0 auto;
+  background-color: $bg-color;
+}
+
+body {
+  font-size: 28px;
+  line-height: 45px;
+  color: #fff;
+  font-family: "Roboto";
+}
