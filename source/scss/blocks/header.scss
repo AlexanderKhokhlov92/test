@@ -138,4 +138,7 @@
   .header_navigation:not(.--open) .burger-open {
     display: none;
   }
+  .header_navigation.--open .burger-open {
+    position: absolute;
+  }
 }
